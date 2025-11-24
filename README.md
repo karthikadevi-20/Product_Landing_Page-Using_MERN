@@ -203,20 +203,6 @@ http://localhost:5173
 
 ---
 
-# 🎥 Demo Video Guidelines
-
-Your demo video should show:
-
-✔ Landing page UI
-✔ Typing in search bar
-✔ Autosuggest dropdown
-✔ Clicking suggestion updates product grid
-✔ Responsive layout
-✔ Backend server running
-✔ Testing API in browser
-✔ MongoDB seeded and connected
-
----
 
 # 👨‍💻 Tech Stack
 
@@ -247,19 +233,3 @@ Your demo video should show:
 * [x] Video demo ready
 
 ---
-
-# 🙌 Author
-
-**Karthika Devi M**
-Aspiring Full Stack Developer
-Coimbatore, Tamil Nadu, India
-
----
-
-# 🏁 Final Notes
-
-This project demonstrates the ability to build a full MERN-stack application with a professional UI, responsive layout, real database connectivity, and backend search functionality — delivering a real-world e-commerce experience.
-
----
-
-
