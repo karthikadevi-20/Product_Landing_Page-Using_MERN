@@ -202,7 +202,19 @@ http://localhost:5173
 ```
 
 ---
+## 📸 Output Screenshots
+<img width="1908" height="872" alt="image" src="https://github.com/user-attachments/assets/50411be9-1fb5-44bb-8425-c912d54bf51b" />
 
+
+<img width="1908" height="872" alt="image" src="https://github.com/user-attachments/assets/c3400868-252c-43bc-adea-e754d01e2541" />
+
+
+<img width="1908" height="869" alt="image" src="https://github.com/user-attachments/assets/e789115c-ddb8-4512-86a7-59c0ed262c23" />
+
+
+<img width="1908" height="869" alt="image" src="https://github.com/user-attachments/assets/39f8abe8-b84b-4866-a8ae-d88ba5649290" />
+
+---
 
 # 👨‍💻 Tech Stack
 
@@ -230,6 +242,5 @@ http://localhost:5173
 * [x] Sample product seeding
 * [x] GitHub repo with `/frontend` + `/backend`
 * [x] README included
-* [x] Video demo ready
 
 ---
