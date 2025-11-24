@@ -1,53 +1,54 @@
-# ShopVerse - Product Landing Page (MERN Assignment)
+🛍️ ShopVerse – Product Landing Page (MERN Stack Assignment)
 
-This project is a product landing page similar to an e-commerce homepage
-(Amazon / Flipkart style) with a working backend search feature.
+A clean and functional e-commerce style product landing page with autosuggest search, product grid, filter functionality, and real backend search with MongoDB.
 
-Built as part of the **MERN Stack Developer Intern Assignment**.
+This project was built for the MERN Stack Developer Intern Assignment for Trizen Ventures.
 
----
+📌 Features
+🖥️ Frontend (React)
 
-## ✨ Features
+✔ Header with search bar
+✔ Live autosuggest dropdown (max 5 suggestions)
+✔ Clicking suggestion fills search input
+✔ Hero section with promotional banner
+✔ Product grid with:
 
-### Frontend (React)
-- Header with search bar
-- Live autosuggest dropdown (max 5 suggestions)
-- Hero section with promotional banner
-- Responsive product grid (10+ products)
-  - Product image
-  - Name
-  - Price
-  - Rating
-  - Hover effects (scale + shadow)
-- Filters section
-  - Category / price based filtering
-- Fully responsive (Desktop, Tablet, Mobile)
+image
 
-### Backend (Node.js + Express + MongoDB)
-- `GET /products`
-  - Returns all products from MongoDB
-- `GET /search?q=term`
-  - Case-insensitive partial search by product name
-  - Maximum 5 results
-- Clean separation:
-  - Models
-  - Routes
-  - Config (DB connection)
+name
 
----
+price
 
-## 🛠 Tech Stack
+rating
+✔ Hover effects on cards
+✔ Category filtering (optional improvement)
+✔ Add to cart UI (count increments)
+✔ Responsive:
 
-- **Frontend:** React, Vite (or CRA), CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB Atlas
-- **Other:** Mongoose, CORS, dotenv
+Desktop
 
----
+Tablet
 
-## 📁 Folder Structure
+Mobile
+✔ Clean professional theme & UI
 
-```bash
-.
-├── frontend/          # React app (UI)
-└── backend/           # Node + Express + MongoDB API
+🛢️ Backend (Node.js + Express + MongoDB)
+
+✔ /products API → returns full product list
+✔ /search?q=term API → returns partial matches
+✔ Case-insensitive searching
+✔ Max 5 suggestions
+✔ Stores products in MongoDB
+✔ Seed script to populate sample products
+✔ Mongoose model included
+✔ Separation of concerns:
+
+routes
+
+models
+
+config
+
+seed
+
+📁 Project Structure
