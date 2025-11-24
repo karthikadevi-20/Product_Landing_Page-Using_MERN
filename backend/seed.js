@@ -1,0 +1,107 @@
+// seed.js
+import dotenv from "dotenv";
+import mongoose from "mongoose";
+import Product from "./models/productModel.js";
+
+dotenv.config();
+
+const products = [
+   {
+    id: 1,
+    name: "Smartphone Max 20",
+    category: "Mobiles",
+    price: 49999,
+    rating: 4.5,
+    imageUrl: "/smartphonemax20.jpg",
+  },
+  {
+    id: 2,
+    name: "Wireless Headphones Pro",
+    category: "Electronics",
+    price: 2999,
+    rating: 4.2,
+    imageUrl: "/wirelessHeadphones.webp",
+  },
+  {
+    id: 3,
+    name: "Gaming Laptop Ultra",
+    category: "Computers",
+    price: 89999,
+    rating: 4.8,
+    imageUrl: "/laptop.jpg",
+  },
+  {
+    id: 4,
+    name: "Bluetooth Speaker Mini",
+    category: "Electronics",
+    price: 1999,
+    rating: 4.0,
+    imageUrl: "/speaker.jpg",
+  },
+  {
+    id: 5,
+    name: "Office Chair Comfort",
+    category: "Furniture",
+    price: 7999,
+    rating: 4.3,
+    imageUrl: "/chair.jpg",
+  },
+  {
+    id: 6,
+    name: "Running Shoes Lite",
+    category: "Fashion",
+    price: 2999,
+    rating: 4.1,
+    imageUrl: "/shoes.jpg",
+  },
+  {
+    id: 7,
+    name: "Smartwatch FitTrack",
+    category: "Electronics",
+    price: 5999,
+    rating: 4.4,
+    imageUrl: "/watch.jpg",
+  },
+  {
+    id: 8,
+    name: "DSLR Camera ProShot",
+    category: "Electronics",
+    price: 69999,
+    rating: 4.6,
+    imageUrl: "/camera.jpg",
+  },
+  {
+    id: 9,
+    name: "Backpack TravelX",
+    category: "Fashion",
+    price: 1499,
+    rating: 4.0,
+    imageUrl: "/backpack.jpg",
+  },
+  {
+    id: 10,
+    name: "Wireless Mouse Swift",
+    category: "Computers",
+    price: 799,
+    rating: 4.2,
+    imageUrl: "/mouse.jpg",
+  }
+];
+
+async function seed() {
+  try {
+    await mongoose.connect(process.env.MONGO_URI);
+    console.log("Connected to MongoDB");
+
+    await Product.deleteMany({});
+    await Product.insertMany(products);
+
+    console.log("✅ Seeded products successfully");
+    process.exit(0);
+  } catch (err) {
+    console.error("Seeding error:", err.message);
+    process.exit(1);
+  }
+}
+
+seed();
