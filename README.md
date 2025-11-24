@@ -204,10 +204,15 @@ http://localhost:5173
 ---
 ## 📸 Output Screenshots
 
+### Landing Page 
+
 <img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/535500b6-267d-4488-9358-e2e3e3991ef3" />
+
+### SearchBar With autosuggest dropdown
 
 <img width="1919" height="864" alt="image" src="https://github.com/user-attachments/assets/bad1be6e-c4b4-4af4-89f8-10f9e5699acb" />
 
+### Filters Section based on price and category
 <img width="1908" height="872" alt="image" src="https://github.com/user-attachments/assets/50411be9-1fb5-44bb-8425-c912d54bf51b" />
 
 <img width="1908" height="869" alt="image" src="https://github.com/user-attachments/assets/e789115c-ddb8-4512-86a7-59c0ed262c23" />
