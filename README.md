@@ -56,8 +56,8 @@ Product_Landingpage/
 │   ├── seed.js
 │   ├── server.js
 │   ├── package.json
-│   ├── .env
-│   └── .env.example
+│   └──  .env
+│  
 │
 └── README.md
 
